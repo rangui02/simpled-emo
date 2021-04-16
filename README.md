@@ -66,23 +66,3 @@ const router = createRouter({
 #### 7. 效果图
 
 ![效果图](./src/assets/vue3-route.png)
-
-## 三、组件
-
-- 创建组件：（新建个页面即可）
-- 引入组件：`import ExportExcel from './components/ExportExcel'`
-- 注册组件：
-
-```js
-import { createApp } from 'vue'
-import App from './App'
-const app = createApp(App)
-// 注册组件
-app.component('ExportExcel', ExportExcel)
-```
-
-- 使用组件：`<ExportExcel/>`
-
-## 四、Vuex
-
-待定
