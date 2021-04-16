@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  --bgColor: #fff;
+  --backgroundImage: linear-gradient(-90deg, #6d70a0, #4a53d3);
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background: var(--bgColor);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
